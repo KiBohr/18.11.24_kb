@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size:10px;
+}
+
+h1{
+    margin-bottom: 1%;
+    padding-left: 1%;
+}
+
+p{
+    margin-bottom: 1%;
+    padding-left: 1%;
+}
+
+.pets{
+    border: solid 3px grey;
+    padding: 10px 10px;
+    margin-left:1%;
+    font-size: 1em;
+}
+
+ul{
+    padding-inline-start: 1.2em;
+}
+
+li{
+    list-style:none;
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+
+.dog li{
+    list-style:"🌭"
+}
+.cat li{
+    list-style:"🐱"
+}
+.parrot li{
+    list-style:"🦆"
+}
+.snake li{
+    list-style:"🪱"
+}
+.lizard li{
+    list-style:"🪿"
+}

@@ -1,0 +1,89 @@
+@font-face {
+    font-family:amatic;
+    src: url(../fonts/AmaticSC-Regular.ttf);
+}
+@font-face {
+    font-family:exo;
+    src: url(../fonts/Exo-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:permmark;
+    src: url(../fonts/PermanentMarker-Regular.ttf);
+}
+@font-face {
+    font-family:quicksand;
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:gummy;
+    src: url(../fonts/SourGummy-VariableFont_wdth\,wght.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html*{
+    font-size:10px;
+}
+
+body{
+    text-align: center;
+    width: 50%;
+    height: 40%;
+}
+
+h1{
+font-family:quicksand;
+color:rgb(44,81,166);
+background-color:rgb(230, 185, 183);
+padding: 2% 2%;
+border-radius: 6px;
+}
+
+body:nth-of-type(1) p:nth-of-type(1){
+font-family:amatic;
+color:#a42217;
+background-color:#dfc6a2;
+padding: 1% 1%;
+border-radius: 6px;
+padding: 3% 0%;
+}
+
+body:nth-of-type(1) p:nth-of-type(2){
+font-family:exo;
+color:#c6b555;
+background-color:#314650;
+padding: 1% 1%;
+padding: 3% 0%;
+}
+
+body:nth-of-type(1) p:nth-of-type(3){
+font-family:permmark;
+background-color:#efe4d4;
+color:#cc863f;
+padding: 1% 1%;
+border-radius: 6px;
+padding: 3% 0%;
+}
+
+body:nth-of-type(1) p:nth-of-type(4){
+font-family:quicksand;
+color:#6e4d61;
+background-color:#c6b555;
+padding: 1% 1%;
+border-radius: 6px;
+padding: 3% 0%;
+}
+
+body:nth-of-type(1) p:nth-of-type(5){
+font-family:gummy;
+color:#583e93;
+background-color:#66c4e6;
+padding: 1% 1%;
+border-radius: 6px;
+padding: 3% 0%;
+}
+
